@@ -1,0 +1,430 @@
+{
+  "families": [
+    "Archivo",
+    "Inter"
+  ],
+  "scale": {
+    "heading-1": {
+      "fontFamily": "Archivo",
+      "fontSize": "calc(var(--framer-blockquote-font-size,var(--framer-font-size,16px))*var(--framer-font-size-scale,1))",
+      "fontWeight": "700",
+      "lineHeight": null,
+      "source": "css"
+    },
+    "heading-2": {
+      "fontFamily": "Archivo",
+      "fontSize": "calc(var(--framer-link-hover-font-size,var(--framer-blockquote-font-size,var(--framer-font-size,16px)))*var(--framer-font-size-scale,1))",
+      "fontWeight": "700",
+      "lineHeight": null,
+      "source": "css"
+    },
+    "heading-3": {
+      "fontFamily": "Archivo",
+      "fontSize": "calc(var(--framer-link-current-font-size,var(--framer-link-font-size,var(--framer-font-size,16px)))*var(--framer-font-size-scale,1))",
+      "fontWeight": "700",
+      "lineHeight": null,
+      "source": "css"
+    },
+    "body": {
+      "fontFamily": "Inter",
+      "fontSize": "calc(var(--framer-link-hover-font-size,var(--framer-link-current-font-size,var(--framer-link-font-size,var(--framer-font-size,16px))))*var(--framer-font-size-scale,1))",
+      "fontWeight": "400",
+      "lineHeight": null,
+      "source": "css"
+    },
+    "caption": {
+      "fontFamily": "Inter",
+      "fontSize": "var(--framer-font-size,16px)",
+      "fontWeight": "400",
+      "lineHeight": null,
+      "source": "css"
+    }
+  },
+  "fontFaces": [
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/1K3W8DizY3v4emK8Mb08YHxTbs.woff2",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/tUSCtfYVM1I1IchuyCwz9gDdQ.woff2",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/VgYFWiwsAC5OYxAycRXXvhze58.woff2",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/GIryZETIX4IFypco5pYZONKhJIo.woff2",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/H89BbHkbHDzlxZzxi8uPzTsp90.woff2",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/u6gJwDuwB143kpNK1T1MDKDWkMc.woff2",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/43sJ6MfOPh1LCJt46OvyDuSbA6o.woff2",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/wccHG0r4gBDAIRhfHiOlq6oEkqw.woff2",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/WZ367JPwf9bRW6LdTHN8rXgSjw.woff2",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/ia3uin3hQWqDrVloC1zEtYHWw.woff2",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/2A4Xx7CngadFGlVV4xrO06OBHY.woff2",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/CfMzU8w2e7tHgF4T4rATMPuWosA.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/867QObYax8ANsfX4TGEVU9YiCM.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/Oyn2ZbENFdnW7mt2Lzjk1h9Zb9k.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/cdAe8hgZ1cMyLu9g005pAW3xMo.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/DOfvtmE1UplCq161m6Hj8CSQYg.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/pKRFNWFoZl77qYCAIp84lN1h944.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/tKtBcDnBMevsEEJKdNGhhkLzYo.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/mkY5Sgyq51ik0AMrSBwhm9DJg.woff2",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/X5hj6qzcHUYv7h1390c8Rhm6550.woff2",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/gQhNpS3tN86g8RcVKYUUaKt2oMQ.woff2",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/cugnVhSraaRyANCaUtI5FV17wk.woff2",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/5HcVoGak8k5agFJSaKa4floXVu0.woff2",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/rZ5DdENNqIdFTIyQQiP5isO7M.woff2",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/P2Bw01CtL0b9wqygO0sSVogWbo.woff2",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/05KsVHGDmqXSBXM4yRZ65P8i0s.woff2",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/ky8ovPukK4dJ1Pxq74qGhOqCYI.woff2",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/vvNSqIj42qeQ2bvCRBIWKHscrc.woff2",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/3ZmXbBKToJifDV9gwcifVd1tEY.woff2",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/FNfhX3dt4ChuLJq2PwdlxHO7PU.woff2",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/gcnfba68tfm7qAyrWRCf9r34jg.woff2",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/efTfQcBJ53kM2pB1hezSZ3RDUFs.woff2",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/vxBnBhH8768IFAXAb4Qf6wQHKs.woff2",
+      "format": "woff2",
+      "weight": "600"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/zSsEuoJdh8mcFVk976C05ZfQr8.woff2",
+      "format": "woff2",
+      "weight": "600"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/b8ezwLrN7h2AUoPEENcsTMVJ0.woff2",
+      "format": "woff2",
+      "weight": "600"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/mvNEIBLyHbscgHtwfsByjXUz3XY.woff2",
+      "format": "woff2",
+      "weight": "600"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/6FI2EneKzM3qBy5foOZXey7coCA.woff2",
+      "format": "woff2",
+      "weight": "600"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/fuyXZpVvOjq8NesCOfgirHCWyg.woff2",
+      "format": "woff2",
+      "weight": "600"
+    },
+    {
+      "family": "Inter",
+      "src": "https://framerusercontent.com/assets/NHHeAKJVP0ZWHk5YZnQQChIsBM.woff2",
+      "format": "woff2",
+      "weight": "600"
+    },
+    {
+      "family": "Archivo",
+      "src": "https://framerusercontent.com/third-party-assets/fontshare/wf/5ISYWGR43XD57J2U5VEYATNUZO57OCPH/UIED7ZBTCD42AJ7GJT5NWKWHCOVDRNAP/EPHSF4UBJRLGUILEFJVCMY7ET4W5HPUF.woff2",
+      "format": "woff2",
+      "weight": "500"
+    },
+    {
+      "family": "Archivo",
+      "src": "https://framerusercontent.com/third-party-assets/fontshare/wf/YSKLU24545WP65XCD7ZVOFPD6AKR3JSM/SPF276V6UKGPA6W5ZNFTEWBJXRSQNXCR/7BTLO3ZVFMNDGT63YATXTEALTKTYZUZG.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Archivo",
+      "src": "https://framerusercontent.com/third-party-assets/fontshare/wf/RJX4LSNI55LNZ6QWGQALARVRCFUYJDBE/HQPW4MP6HXPYZKXF6CFWGJ6ZOJBHKM3X/UHPKREF72UMVMQSKHPDQ42AVOZPICLOJ.woff2",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "Archivo",
+      "src": "https://framerusercontent.com/third-party-assets/fontshare/wf/KQRPW26V7MQVOVIROFMASPZA32ATHS6D/IXS7QF2ZEPITRFFHZVK6DY26UIO5JY5W/3N3HRVZHDNQLKFXB3E335N7AXAKKO7QL.woff2",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "Archivo",
+      "src": "https://framerusercontent.com/third-party-assets/fontshare/wf/CAPUNOGRVOEFSVSVS2JLPSFY7X2SDN6Y/NBTUZADGJJK244MWHOCUJ4UOQCHXR3OZ/M4ILLQ6F2CHZIYSTJIVDF4ND4SCO5IEF.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Archivo",
+      "src": "https://framerusercontent.com/third-party-assets/fontshare/wf/LI7A4SRW3BDRDSU6O6XU25VZ4OLHFNPS/NYVLAUHN4U2SSDS6DXNULP3ABEKGCHY4/T7LX6PNCPANWSGBNSTIYL3B4LD7QGPID.woff2",
+      "format": "woff2",
+      "weight": "500"
+    },
+    {
+      "family": "Archivo",
+      "src": "https://framerusercontent.com/third-party-assets/fontshare/wf/HDCJIGGT2U6DURV6536JGTM6VWUIKBSN/ALDOEF2ZUO2T3XAAXI44RMXEPAEQ4BP2/VYFZGEBESZ2HUTOKHQIILYMFZUUHJZ56.woff2",
+      "format": "woff2",
+      "weight": "300"
+    },
+    {
+      "family": "Archivo",
+      "src": "https://framerusercontent.com/third-party-assets/fontshare/wf/NHFJ26T6QCAZJJ2C5FR5LXO3RB43FJWL/L4QQWE6DLDRGG2DZLUPJBOEHMFWATK6B/365ENB5SRQOXDZEVNAEMZN5IJNZBEFIP.woff2",
+      "format": "woff2",
+      "weight": "800"
+    },
+    {
+      "family": "Archivo",
+      "src": "https://framerusercontent.com/third-party-assets/fontshare/wf/Y42A6OBFKHMPOGSSWNFHV6ASZ7RM3IXN/JID5YS2RALYHLX7OX7ELWBV5EF3C3ZQS/4QOBYYT6LF33KRDEW47UQ3DFAEWGYHD4.woff2",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "Archivo",
+      "src": "https://framerusercontent.com/third-party-assets/fontshare/wf/6YMFPXTZM4O4CKQMQTPPJXOSPTUX4FAO/ZXIGNMOKJZZB7E6EUWESUAHOSFM2XO7S/XUGABKNP6OBXLKQHWCCIUYO3F7G6VE6C.woff2",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "Archivo",
+      "src": "https://framerusercontent.com/third-party-assets/fontshare/wf/74CQWFDUX3J5GVNQOPLQR7NPXA5LUUHF/2WQNDS33EG6A36VIETFNVAL2JNFNQAXP/UTJXILWXI5MQOWDY7MJDKREPOJBGF5VY.woff2",
+      "format": "woff2",
+      "weight": "800"
+    },
+    {
+      "family": "Archivo",
+      "src": "https://framerusercontent.com/third-party-assets/fontshare/wf/F5RLVZAAIFTTOUZCAGXSRHZGXKIH5EXB/IU4JRATO5NXUAJNVPECD46XUNDJVGCZY/HI3GXDQAABUJ5YHSPOI3V5JTNTJ4PCRR.woff2",
+      "format": "woff2",
+      "weight": "600"
+    },
+    {
+      "family": "Archivo",
+      "src": "https://framerusercontent.com/third-party-assets/fontshare/wf/AYUCMYLP34NRIIJDOKHFUSBEXNOHJUFO/KOI6F2S4QJWP2R33XRGMT755DXQRFV2X/GXMY4OWOMSBGUOYA32EXBFKNWE343BJP.woff2",
+      "format": "woff2",
+      "weight": "600"
+    },
+    {
+      "family": "Clash Grotesk",
+      "src": "https://framerusercontent.com/third-party-assets/fontshare/wf/O462VY6O6FTQCS72XVMTQHXAM4NN5CY3/TWF57ITZORMJ3MEWLQQIVO6BMXIB6FUR/MJQFMMOTEGNXDVM7HBBDTQHTVB2M7Y6G.woff2",
+      "format": "woff2",
+      "weight": "400"
+    }
+  ],
+  "rules": {
+    "maxSizesPerScreen": 4,
+    "headingWeightRange": "600-700",
+    "bodyWeight": 400,
+    "lineHeightBody": 1.5,
+    "lineHeightHeading": 1.2
+  }
+}
