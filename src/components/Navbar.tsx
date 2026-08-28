@@ -42,7 +42,7 @@ export default function Navbar() {
           className="
             flex items-center justify-center
             w-8 h-8
-            rounded-[8px]
+            rounded-[10px]
             border border-white/20
             text-white
             transition-all
