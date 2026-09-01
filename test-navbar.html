@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        body { background: #111; color: #fff; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        const { useState } = React;
+        const { motion } = window.Motion;
+
+        const SPRING = { type: "spring", mass: 0.5, damping: 15, stiffness: 150 };
+
+        function App() {
+            const [isOpen, setIsOpen] = useState(true);
+            return (
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2rem' }}>
+                    <button onClick={() => setIsOpen(!isOpen)} className="p-4 bg-white/10 rounded">Toggle</button>
+                    <span className="relative text-white" style={{ width: 20, height: 20, overflow: "hidden", display: 'block', backgroundColor: '#333' }}>
+                        {/* Middle dot */}
+                        <motion.span
+                            className="absolute bg-current rounded-full"
+                            style={{ top: 0, left: 0 }}
+                            initial={false}
+                            animate={{
+                                x: 8,
+                                y: isOpen ? 20 : 8,
+                                width: 4,
+                                height: 4,
+                                opacity: isOpen ? 0 : 1,
+                                scale: isOpen ? 0.2 : 1,
+                            }}
+                            transition={SPRING}
+                        />
+                        {/* Left dot */}
+                        <motion.span
+                            className="absolute bg-current rounded-full"
+                            style={{ top: 0, left: 0 }}
+                            initial={false}
+                            animate={{
+                                x: 0,
+                                y: isOpen ? 9 : 8,
+                                width: isOpen ? 20 : 4,
+                                height: isOpen ? 2 : 4,
+                                rotate: isOpen ? 45 : 0,
+                            }}
+                            transition={SPRING}
+                        />
+                        {/* Right dot */}
+                        <motion.span
+                            className="absolute bg-current rounded-full"
+                            style={{ top: 0, left: 0 }}
+                            initial={false}
+                            animate={{
+                                x: isOpen ? 0 : 16,
+                                y: isOpen ? 9 : 8,
+                                width: isOpen ? 20 : 4,
+                                height: isOpen ? 2 : 4,
+                                rotate: isOpen ? -45 : 0,
+                            }}
+                            transition={SPRING}
+                        />
+                    </span>
+                </div>
+            );
+        }
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>
