@@ -12,7 +12,7 @@ export default function Hero() {
     <section
       id="hero-section"
       aria-label="Hero"
-      className="relative w-full flex-1 overflow-hidden px-4 pt-[15vh] pb-0"
+      className="relative w-full min-h-screen overflow-hidden px-4 pt-[15vh] pb-0 flex flex-col justify-between"
     >
       {/* ── Text block — left-aligned ── */}
       <div className="relative w-full text-center select-none">
