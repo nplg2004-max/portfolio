@@ -36,6 +36,24 @@
   font-display: swap;
 }
 
+/* Archivo — Medium (500) */
+@font-face {
+  font-family: "Archivo";
+  src: url("/fonts/Archivo-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Archivo — SemiBold (600) */
+@font-face {
+  font-family: "Archivo";
+  src: url("/fonts/Archivo-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Archivo — Bold */
 @font-face {
   font-family: "Archivo";
@@ -129,6 +147,8 @@
      ---------------------------------------------------------- */
 
   --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
   --font-weight-bold: 700;
   --font-weight-extrabold: 800;
   /* Archivo ExtraBold — hero headings (Framer CSS: --framer-font-weight: 800) */

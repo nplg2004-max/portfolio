@@ -106,6 +106,19 @@ export default function Hero() {
           objectPosition: 'center top',
         }}
       />
+
+      {/* ── Footer ── */}
+      <footer
+        className="absolute bottom-4 left-8 right-8 flex justify-between items-baseline pointer-events-none select-none"
+        style={{ zIndex: 10 }}
+      >
+        <span className="font-heading font-semibold text-[70px] tracking-normal text-text-primary">
+          ©2026
+        </span>
+        <span className="inline-block origin-bottom scale-y-[0.9] font-body font-normal text-[20px] tracking-tight text-text-primary uppercase">
+          /CREATING SINCE 2020
+        </span>
+      </footer>
     </section>
   )
 }
