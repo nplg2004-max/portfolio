@@ -4,83 +4,74 @@ export default function BioSection() {
   return (
     <section
       id="bio-section"
-      aria-label="About Majd"
-      className="relative w-full max-w-7xl mx-auto px-6 py-28 md:py-40 flex flex-col justify-center"
+      aria-label="About"
+      className="relative w-full max-w-[1180px] mx-auto px-6 py-24 md:py-32 flex flex-col justify-center min-h-screen"
     >
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center">
-        {/* ── Left Column: Hey! + Short Bio ── */}
+      <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-12 lg:gap-8 w-full min-h-[456px]">
+        {/* ── Left Column: Hey! at top, Short Bio at bottom ── */}
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
-          className="lg:col-span-4 flex flex-col justify-between h-full space-y-12 lg:space-y-36"
+          className="w-full lg:w-[300px] flex flex-col justify-between self-stretch flex-shrink-0 min-h-[280px] lg:min-h-[456px]"
         >
           <h2
-            className="font-heading font-bold text-6xl md:text-7xl lg:text-8xl tracking-tight text-text-primary m-0"
+            className="font-heading font-semibold text-[44px] md:text-[62px] lg:text-[76px] tracking-[-0.02em] leading-none text-[#000000] m-0"
             style={{ fontFamily: '"Archivo", system-ui, sans-serif' }}
           >
             Hey!
           </h2>
 
-          <p className="font-body font-bold text-lg md:text-xl leading-snug text-text-primary max-w-xs">
+          <p
+            className="font-heading font-semibold text-[19px] md:text-[21px] lg:text-[22px] tracking-[-0.04em] leading-[1.4em] text-[#111111] max-w-[300px] m-0"
+            style={{ fontFamily: '"Archivo", system-ui, sans-serif' }}
+          >
             I’m Majd, a builder based in Syria, currently working on Templyo, a
             platform for high-quality Framer templates.
           </p>
         </motion.div>
 
-        {/* ── Center Column: Red Portrait ── */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
-          className="lg:col-span-4 flex justify-center items-center"
-        >
-          <div className="relative w-full max-w-[360px] aspect-[4/5] rounded-[32px] overflow-hidden shadow-2xl bg-[#991b1b]">
-            {/* Cinematic crimson backdrop glow */}
-            <div className="absolute inset-0 bg-gradient-to-tr from-[#7f1d1d] via-[#dc2626] to-[#ef4444] opacity-80 mix-blend-multiply" />
-            <img
-              src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80"
-              alt="Majd Portrait"
-              className="w-full h-full object-cover object-center relative z-10 filter contrast-125"
-              style={{
-                mixBlendMode: 'luminosity',
-              }}
-            />
-            {/* Ambient vignette */}
-            <div className="absolute inset-0 z-20 bg-radial from-transparent via-black/20 to-black/60 pointer-events-none" />
-          </div>
-        </motion.div>
+        {/* ── Center Column: Layout Spacer matching the sticky 3D card ── */}
+        <div className="hidden lg:flex justify-center items-center pointer-events-none flex-shrink-0 w-[400px] h-[456px]">
+          <div className="w-[400px] h-[456px] opacity-0" />
+        </div>
 
         {/* ── Right Column: Description + CTA ── */}
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.5, delay: 0.1, ease: [0.4, 0, 0.2, 1] }}
-          className="lg:col-span-4 flex flex-col justify-end space-y-6 lg:pl-6"
+          className="w-full lg:w-[360px] flex flex-col justify-end gap-5 flex-shrink-0 relative z-[30] pointer-events-auto"
         >
-          <p className="font-body text-base md:text-lg leading-relaxed text-text-primary">
+          <p
+            className="font-heading font-normal text-[16px] md:text-[17px] lg:text-[18px] tracking-[-0.04em] leading-[1.4em] text-[#111111] max-w-[360px] m-0"
+            style={{ fontFamily: '"Archivo", system-ui, sans-serif' }}
+          >
             I’m a software engineer and Framer creator with a strong focus on
             building modern, scalable, and conversion-driven web experiences.
           </p>
 
-          <p className="font-body text-base md:text-lg leading-relaxed text-text-primary">
+          <p
+            className="font-heading font-normal text-[16px] md:text-[17px] lg:text-[18px] tracking-[-0.04em] leading-[1.4em] text-[#111111] max-w-[360px] m-0"
+            style={{ fontFamily: '"Archivo", system-ui, sans-serif' }}
+          >
             Over the years, I’ve created and shipped multiple SaaS products and
             Framer templates used by global customers, helping them launch
             faster.
           </p>
 
-          <div className="pt-4">
+          <div className="pt-2">
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-[#545454]/30 bg-white/40 hover:bg-white hover:border-[#131313] transition-all duration-200 text-sm font-medium font-body text-text-primary shadow-xs"
+              className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-xl border border-[#545454]/30 bg-white/40 hover:bg-white hover:border-[#131313] transition-all duration-200 text-[14px] font-medium text-[#111111] shadow-xs group"
+              style={{ fontFamily: '"Archivo", system-ui, sans-serif' }}
             >
               <span>Get Started</span>
               <svg
-                width="14"
-                height="14"
+                width="12"
+                height="12"
                 viewBox="0 0 16 16"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"

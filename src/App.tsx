@@ -2,8 +2,7 @@ import { useEffect } from 'react'
 import Lenis from 'lenis'
 import './App.css'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import BioSection from './components/BioSection'
+import HeroBioSection from './components/HeroBioSection'
 import StatementSection from './components/StatementSection'
 import ServicesSection from './components/ServicesSection'
 import ProjectsSection from './components/ProjectsSection'
@@ -39,11 +38,8 @@ function App() {
       {/* ── Fixed Centered Navigation ── */}
       <Navbar />
 
-      {/* ── 0% Hero Section (Above the fold) ── */}
-      <Hero />
-
-      {/* ── 17% Bio Section ── */}
-      <BioSection />
+      {/* ── 0% - 17% Combined Hero & Bio 3D Scroll Section ── */}
+      <HeroBioSection />
 
       {/* ── 33% Statement / Manifesto Section ── */}
       <StatementSection />

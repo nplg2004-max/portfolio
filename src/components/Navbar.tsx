@@ -98,8 +98,8 @@ export default function Navbar() {
   };
 
   return (
-    // Outer wrapper — position relative so the dropdown can anchor to it
-    <div className="w-full flex justify-center pt-6 px-4 relative">
+    // Outer wrapper — fixed top so it floats cleanly above hero content without pushing down document flow
+    <div className="fixed top-0 left-0 w-full flex justify-center pt-6 px-4 z-50 pointer-events-none">
 
       {/* ── Pill navbar (entrance-animated) ── */}
       <motion.nav
@@ -108,7 +108,7 @@ export default function Navbar() {
         initial="hidden"
         animate="visible"
         className={[
-          "flex items-center justify-between",
+          "flex items-center justify-between pointer-events-auto",
           "bg-[#111111]",                // extended.color-111111
           "rounded-xl",                  // 12px from border-radius scale
           "px-5 py-3",                   // 20px / 12px — on the 4px grid
@@ -240,7 +240,7 @@ export default function Navbar() {
             exit="exit"
             className={[
               // Position: anchored below the navbar pill
-              "absolute top-full mt-2",
+              "absolute top-full mt-2 pointer-events-auto",
               "w-full max-w-[325px]",
               // Surface token — card / panel background (DESIGN.md §2)
               "bg-[#faf7f3]",            // core.surface

@@ -12,27 +12,26 @@ export default function Hero() {
     <section
       id="hero-section"
       aria-label="Hero"
-      className="relative w-full min-h-screen overflow-hidden px-4 pt-[15vh] pb-0 flex flex-col justify-between"
+      className="relative w-full h-screen overflow-hidden px-4 flex flex-col justify-center items-center select-none"
     >
-      {/* ── Text block — left-aligned ── */}
-      <div className="relative w-full text-center select-none">
+      {/* ── Central Text block — tightly wrapping SOFTWARE ENGINEER ── */}
+      <div className="relative inline-flex flex-col items-center justify-center mx-auto text-center z-20">
 
-        {/* ── Star icon — Framer sparkle PNG ── */}
+        {/* ── Star icon — Framer sparkle PNG (anchored to top-left of 'S') ── */}
         <span
           aria-hidden="true"
-          className="absolute"
-          style={{ top: '-20%', left: '-0.05em', zIndex: 2 }}
+          className="absolute -top-10 -left-10 sm:-top-14 sm:-left-14 md:-top-18 md:-left-16 lg:-top-20 lg:-left-20 pointer-events-none select-none z-30"
         >
           <img
             src="https://framerusercontent.com/images/OLDYsHB9RMavvQrkVRNy08ZXYE.png"
             alt=""
-            width={20}
-            height={20}
+            width={140}
+            height={140}
             style={{
               display: 'block',
-              width: 'clamp(60px, 12vw, 150px)',
-              height: 'clamp(60px, 12vw, 150px)',
-              objectFit: 'cover',
+              width: 'clamp(65px, 9.5vw, 140px)',
+              height: 'clamp(65px, 9.5vw, 140px)',
+              objectFit: 'contain',
               objectPosition: 'center',
             }}
           />
@@ -40,7 +39,7 @@ export default function Hero() {
 
         {/* SOFTWARE */}
         <p
-          className="font-heading uppercase text-text-primary m-0"
+          className="font-heading uppercase text-text-primary m-0 tracking-tight"
           style={{
             fontFamily: '"Archivo", system-ui, sans-serif',
             fontWeight: 800,
@@ -54,7 +53,7 @@ export default function Hero() {
 
         {/* ENGINEER */}
         <p
-          className="font-heading uppercase text-text-primary m-0"
+          className="font-heading uppercase text-text-primary m-0 tracking-tight"
           style={{
             fontFamily: '"Archivo", system-ui, sans-serif',
             fontWeight: 800,
@@ -66,56 +65,36 @@ export default function Hero() {
           ENGINEER
         </p>
 
-        {/* ── Lightning bolt — Framer 3D PNG ── */}
+        {/* ── Lightning bolt — Framer 3D PNG (anchored to bottom-right of 'R') ── */}
         <span
           aria-hidden="true"
-          className="absolute"
-          style={{ top: '73%', bottom: '0em', right: '2%', zIndex: 2 }}
+          className="absolute -bottom-8 -right-8 sm:-bottom-12 sm:-right-12 md:-bottom-14 md:-right-16 lg:-bottom-16 lg:-right-18 pointer-events-none select-none z-30"
         >
           <img
             src="https://framerusercontent.com/images/lIIjRX5gxRdY7UWw5wqIXicPOA.png"
             alt=""
-            width={150}
-            height={150}
+            width={160}
+            height={160}
             style={{
               display: 'block',
-              width: 'clamp(60px, 12vw, 150px)',
-              height: 'clamp(60px, 12vw, 150px)',
+              width: 'clamp(70px, 10.5vw, 155px)',
+              height: 'clamp(70px, 10.5vw, 155px)',
               objectFit: 'contain',
               objectPosition: 'center',
-              transform: 'rotate(15deg)',
+              transform: 'rotate(16deg)',
             }}
           />
         </span>
       </div>
 
-      {/* ── Portrait image — bottom-centre, partially cropped ── */}
-      <img
-        src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=500&q=80"
-        alt="Portrait"
-        width={250}
-        height={280}
-        className="absolute object-cover"
-        style={{
-          borderRadius: 20,
-          zIndex: 8,
-          top: '80%',
-          left: '50%',
-          transform: 'translate(-50%, -30%)',
-          filter: 'grayscale(100%)',
-          objectPosition: 'center top',
-        }}
-      />
-
       {/* ── Footer ── */}
       <footer
-        className="absolute bottom-4 left-8 right-8 flex justify-between items-baseline pointer-events-none select-none"
-        style={{ zIndex: 10 }}
+        className="absolute bottom-6 left-6 right-6 md:left-10 md:right-10 flex justify-between items-end pointer-events-none select-none z-20"
       >
-        <span className="font-heading font-semibold text-[70px] tracking-normal text-text-primary">
+        <span className="font-heading font-semibold text-[42px] sm:text-[54px] md:text-[64px] lg:text-[72px] leading-none text-text-primary tracking-tight">
           ©2026
         </span>
-        <span className="inline-block origin-bottom scale-y-[0.9] font-body font-normal text-[20px] tracking-tight text-text-primary uppercase">
+        <span className="font-body font-normal text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] tracking-tight text-text-primary uppercase leading-none pb-1 sm:pb-2">
           /CREATING SINCE 2020
         </span>
       </footer>
